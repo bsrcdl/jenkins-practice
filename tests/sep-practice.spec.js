@@ -1,7 +1,7 @@
 import{test,expect} from '@playwright/test';
 
 
-test('SEP Practice', async ({page})=>{
+test('SEP Practice @smoke', async ({page})=>{
   //1ST WAY => const code= Buffer.from("automation-user:123abc").toString('base64');
 
   const code = Buffer.from( `${process.env.SEP_USERNAME}:${process.env.SEP_PASSWORD}` ).toString("base64");

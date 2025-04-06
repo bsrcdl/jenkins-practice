@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
 
-test.describe("Practice.cydeo", () => {
+test.describe("Practice.cydeo @smoke", () => {
 
 test.beforeEach(async ({page}) =>{ 
 await page.goto("https://practice.cydeo.com/");
